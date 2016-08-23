@@ -14,14 +14,13 @@
     "webapp",
     "linux"
   ],
-  "author": "Nikhil Jha",
+  "author": "Nikhil Jha <nikhilfromirvine@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nikhiljha/web2linux/issues"
   },
   "homepage": "https://github.com/nikhiljha/web2linux#readme",
   "dependencies": {
-    "express": "^4.14.0",
     "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
