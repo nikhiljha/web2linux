@@ -1,0 +1,38 @@
+{
+  "name": "web2linux",
+  "version": "0.1.0",
+  "description": "Skeleton code for converting any webapp into a linux app.",
+  "main": "init.js",
+  "scripts": {
+    "test": "npm -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhiljha/web2linux.git"
+  },
+  "keywords": [
+    "webapp",
+    "linux"
+  ],
+  "author": "Nikhil Jha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikhiljha/web2linux/issues"
+  },
+  "homepage": "https://github.com/nikhiljha/web2linux#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^5.10.5",
+    "electron-prebuilt": "^0.36.10"
+  },
+  "build": {
+    "appId": "nem.wallet",
+    "app-category-type": "finance",
+    "win": {
+      "iconUrl": "https://raw.githubusercontent.com/nikhiljha/nemwallet-desktop/master/nemLogoV2_shieldOnly.ico"
+    }
+  }
+}
